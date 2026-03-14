@@ -32,7 +32,7 @@ jobs:
       - name: Build firmware
         run: |
           cmake --build ${{ github.workspace }}/build/Release \
-            --target EcatV2_AX58100_H750_Universal
+            --target EcatV2_AX58100_H723_Universal
 
       - name: Upload ELF artifact
         uses: actions/upload-artifact@v4
